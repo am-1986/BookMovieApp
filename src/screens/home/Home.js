@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import "./Home.css";
 import Header from "./../../common/header/Header";
-import moviesData from "./../../common/moviesData";
+import moviesData from "./../../common/moviesData/moviesData";
 import UpComingMovies from "./HomeComponents/UpcomingMovies";
 import AllMovies from "./HomeComponents/AllMovies";
 import MoviesFilterForm from "./HomeComponents/MoviesFilterForm";
-import genres from "./../../common/genres";
-import artists from "./../../common/artists";
+import genres from "./../../common/genres/genres";
+import artists from "./../../common/artists/artists";
 
 const Home = () => {
     const [movies, setMovies] = useState(moviesData);
